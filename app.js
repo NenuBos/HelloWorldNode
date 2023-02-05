@@ -19,6 +19,10 @@ app.get('/notes/:id', (req, res) => {
     }
 })
 
+app.get('/todo', (req, res) => {
+    res.send('TODO')
+})
+
 app.listen(port, () => {
 
 
